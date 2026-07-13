@@ -1,8 +1,0 @@
-.env
-.env.*
-venv/
-data/raw/
-__pycache__/
-*.pyc
-logs/
-.DS_Store
