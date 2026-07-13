@@ -1,0 +1,9 @@
+langchain
+langchain-openai
+langchain-community
+openai
+psycopg2-binary
+sqlalchemy
+python-dotenv
+pandas
+kaggle
