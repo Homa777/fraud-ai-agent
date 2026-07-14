@@ -55,6 +55,7 @@ Azure PostgreSQL Database
 ---
 
 ## 📁 Project Structure
+```
 fraud-ai-agent/
 ├── agents/
 │   └── fraud_agent.py       ← AI agent brain
@@ -72,6 +73,8 @@ fraud-ai-agent/
 ├── .env.template            ← Environment variables template
 ├── requirements.txt         ← Python dependencies
 └── README.md
+
+```
 ---
 
 ## 🚀 Setup Guide
@@ -122,42 +125,3 @@ python3 agents/fraud_agent.py
 ---
 
 ## 💬 Example Conversation
-Agent: Good day! Thank you for contacting the fraud detection team.
-How may I assist you today?
-You:   I want to report unauthorized transactions
-Agent: I can help you with that. Could you please provide
-your full name and card number?
-You:   John Smith, 1234 5678 9012 3456
-Agent: Thank you John! I have sent a verification code
-to your phone number on file.
-You:   My code is 1234
-Agent: Identity verified! Here are your last 10 transactions.
-Which ones do you not recognize?
-You:   Transaction 1 and Transaction 3
-Agent: Your fraud claim CLM-000001 has been submitted.
-Our fraud team will contact you within 30 business days.
-
----
-
-## 📊 Dataset
-
-**Bank Transaction Dataset for Fraud Detection**
-- Source: [Kaggle](https://www.kaggle.com/datasets/valakhorasani/bank-transaction-dataset-for-fraud-detection)
-- 2,512 real banking transactions
-- 495 unique accounts
-
----
-
-## ⚠️ Important Notes
-
-- OTP is simulated for learning purposes (always 1234)
-- Customer data is AI-generated using Faker library
-- Never commit your `.env` file to GitHub
-- Regenerate your Azure API keys if accidentally exposed
-
----
-
-## 👩‍💻 Author
-
-Built as a portfolio project to demonstrate agentic AI development,
-cloud database integration, and banking domain knowledge.
